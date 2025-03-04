@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #fff;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin-left: 300px;
+    overflow: hidden;
+}
+
+
+.text-overlay {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    justify-content: end;
+    width: 50%;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 650px ;
+}
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+    background-color: #F5F7F8;
+    
+}
+
+.header-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #F5F7F8;
+    position: sticky;
+    top: 0; /* Sticks the header to the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.item {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+  
+.item li a {
+    text-decoration: none;
+   color:black;
+   font-size: 15px;
+   font-weight: 500;
+   margin:0 10px;
+   transition: color 0.3s ease;
+   justify-content: center;
+}
+  
+.item li a:hover {
+    color: #373A40;
+}
+
+.cont1{
+    background-color: #e8e6e1;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-container {
+    max-width: 800px;
+    background: #f4f2ed;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-section {
+    width: 40%;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.text-section p {
+    margin-bottom: 15px;
+}
+
+.image-container {
+    margin-top: 150px;
+    width: 35%;
+    text-align: right;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+}

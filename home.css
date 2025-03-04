@@ -221,8 +221,13 @@ body{
 
 .gallery-grid img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 0px;
     object-fit: cover;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
 }
 
 .latest-news {
@@ -295,3 +300,20 @@ body{
     font-size: 14px;
     margin-top: 10px;
 }
+
+main {
+    padding: 20px;
+}
+  
+.section {
+    display: none; /* Initially hidden */
+}
+  
+.section.active {
+    display: block; /* Show active section */
+}
+  
+.hidden {
+    display: none; /* For JavaScript toggling */
+}
+  
